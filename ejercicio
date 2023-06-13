@@ -1,0 +1,12 @@
+def sumar_tres_numeros (num1, num2, num3): 
+suma = num1+ num2 + num3
+return suma
+
+def  main ():
+numero1 = 5
+numero2= 10
+numero3 = 2
+resultado = 
+sumar_tres_numeros (numero1, numero2, numero3)
+print("La suma de los tres numero es:", resultado)
+main()
