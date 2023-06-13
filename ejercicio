@@ -10,3 +10,11 @@ resultado =
 sumar_tres_numeros (numero1, numero2, numero3)
 print("La suma de los tres numero es:", resultado)
 main()
+
+class Coche:
+def __init__(self, num_puertas):
+self.num_puertas += 1
+miCoche = Coche(2)
+miCoche.incrementar_puertas()
+print("El coche tiene",
+miCoche.num_puertas, "puertas"
